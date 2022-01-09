@@ -1,0 +1,38 @@
+#main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fccf52;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+#right {
+    float: right;
+    width: 50%;
+    display:flex;
+    align-self:flex-end;
+    flex-direction: row;
+}
+
+#left-img {
+   border-image: 5px black;
+    height: 500px;
+    width: 300px;
+    margin-left: 200px;
+}
+#right-img {
+    height: 300px;
+    width: 250px;
+    margin-left:200px; 
+
+    
+
+}

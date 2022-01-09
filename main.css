@@ -1,0 +1,59 @@
+#form-row{
+    padding: 10px 0;
+display: flex;
+}
+#form-row label{
+    padding-right: 10px;
+    flex: 1;
+}
+#form-row input{
+flex: 1;
+}
+#column-layout{
+    background-color: aquamarine;
+    border:10px brown;
+    margin: 50pxauto 0auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+#main-column{
+    border: 10px black;
+    flex: 2;
+    order: 2;
+}
+#side-bar one{
+    flex: 1;
+    order: 3;
+}
+#side-bar two{
+    flex: 1;
+    order: 1;
+}
+
+#snacks{
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    display:flex;
+}
+#sweats{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    
+}
+#sweats:nth-child(1) {background-color: brown;}
+#sweats:nth-child(2) {background-color: cadetblue;}
+#sweats:nth-child(3) {background-color: chartreuse;}
+#banner{
+    height: 400px;
+    max-width: 700px;
+    margin: 40px auto 40px auto;
+    background-color: blueviolet; 
+    display: flex;
+}
+#center-me{
+    color: cornsilk;
+    font-size: 50px;
+    margin:0 auto;
+}
